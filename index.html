@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title  -->
+    <title>plan A Trip</title>
+
+    <!-- favorite icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome icon CDN Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="h-auto w-100"><!-- parentContainer -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"><!-- componentContainer -->
+            <div class="container-fluid"><!-- row -->
+
+                <!-- Logo + Name -->
+                <a class="navbar-brand d-flex align-items-center me-5" href="#">
+                    <span class="text-dark ms-5">MyWebsite</span>
+                </a>
+
+                <!-- Search box (right after brand) -->
+                <form class="d-flex me-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+
+                <!-- Toggler (for mobile view) -->
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation links -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Movies
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Series
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero"><!-- component -->
+            <div class="container-fluid"><!-- componentContainer -->
+                <div class="row"><!-- row -->
+                    <div class="col-12"><!-- column -->
+                        <div class="col h-100 w-100"><!-- subColumn -->
+                            <h1>Travel Around The World</h1>
+                            <img src="https://via.placeholder.com/80" alt="profile" class="profile-img">
+                            <p>plan A Trip...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </header>
+
+    <main class="h-auto w-100">
+        <section class="py-5">
+            <div class="container">
+                <div class="row ">
+
+                    <!-- Card 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center p-4">
+                            <div class="icon text-primary">&#9679;</div>
+                            <h5 class="card-title">Explore Destinations</h5>
+                            <p class="card-text">Discover breathtaking places around the world and plan your next
+                                adventure with ease.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center p-4">
+                            <div class="icon text-success">&#9679;</div>
+                            <h5 class="card-title">Travel Guides</h5>
+                            <p class="card-text">Get curated guides, tips, and local insights to make your journey
+                                unforgettable. we bring you the best travel advice.</p>
+                            <a href="#" class="btn btn-success">Read Guides</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center p-4">
+                            <div class="icon text-warning">&#9679;</div>
+                            <h5 class="card-title">Adventure Awaits</h5>
+                            <p class="card-text">From mountains to beaches, explore experiences that match your sense of
+                                adventure.</p>
+                            <a href="#" class="btn btn-warning text-white">Start Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="carousal">
+            <div class="container py-5">
+                <div class="row">
+                    <h2 class="text-center mb-4">Beautiful Places Around the World</h2>
+
+                    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                        data-bs-interval="3000">
+                        <!-- Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80"
+                                    class="d-block w-100 img-cover-left" alt="Eiffel Tower, Paris">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Eiffel Tower, France</h5>
+                                    <p>The symbol of Paris and one of the most visited monuments in the
+                                        world.</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+                                    class="d-block w-100" alt="Santorini, Greece">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Santorini, Greece</h5>
+                                    <p>Stunning sunsets, whitewashed villages, and breathtaking views of the
+                                        Aegean Sea.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+                                    class="d-block w-100" alt="Machu Picchu, Peru">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Machu Picchu, Peru</h5>
+                                    <p>The breathtaking ancient Incan citadel high in the Andes.</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80"
+                                    class="d-block w-100" alt="Eiffel Tower, Paris">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>London</h5>
+                                    <p>Beautiful Places In London: Hidden Gems Of London</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 5 -->
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1549693578-d683be217e58?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                                    class="d-block w-100" alt="Mount Fuji">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Shibuya Crossing</h5>
+                                        <p>The world’s busiest pedestrian crossing in the heart of Tokyo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="crud my-5"><!-- component -->
+            <div class="container "><!-- componentContainer -->
+                <div class="row"><!-- row -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12"><!-- column -->
+                        <div class="h-100 w-100 "><!-- subcolumn -->
+                            <h2 class="mb-4">Do You Know!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"><!-- row -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12"><!-- column -->
+                        <div class="h-100 w-100 p-0 shadow rounded-3"><!-- subcolumn -->
+
+
+                            <div class="accordion" id="accordionExample">
+
+                                <!-- Accordion Item 1 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Why is the Eiffel Tower so famous?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            The Eiffel Tower in Paris is an icon of love and architecture. Standing 330
+                                            meters tall, it offers breathtaking views of the city.
+                                            Built in 1889 for the World’s Fair, it has since become one of the most
+                                            visited monuments in the world.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 2 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            What makes the Great Wall of China special?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Stretching over 21,000 km, the Great Wall of China is one of the greatest
+                                            architectural wonders in history.
+                                            It was built to protect ancient China from invasions and today stands as a
+                                            symbol of strength and endurance.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 3 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Why is Santorini, Greece so beautiful?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Santorini is world-famous for its whitewashed houses, blue-domed churches,
+                                            and stunning sunsets over the Aegean Sea.
+                                            Its volcanic history and picturesque villages make it one of the most
+                                            romantic travel destinations.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="h-auto w-100"><!-- parentContainer -->
+        <div class="form my-5">
+            <div class="container"><!-- componentContainer -->
+                <div class="row "><!-- row -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 "><!-- column -->
+                        <div class="h-100 w-100 mb-4"><!-- subcolumn -->
+                            <!-- Title -->
+                            <h1>Sign in-Google Acount</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="shadow rounded-1 bg-white border border-dark px-4 py-2">
+
+                            <h2 class="mb-4 d-flex justify-content-center">Create your account</h2>
+
+                            <form>
+                                <!-- Full Name -->
+                                <div class="mb-3">
+                                    <label for="fullName" class="form-label fw-bold">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName"
+                                        placeholder="Enter your full name">
+                                </div>
+
+                                <!-- Email -->
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+
+                                <!-- Message -->
+                                <div class="mb-3">
+                                    <label for="message" class="form-label fw-bold">Message</label>
+                                    <textarea class="form-control" id="message" rows="4"
+                                        placeholder="Write your message here..."></textarea>
+                                </div>
+
+                                <!-- Newsletter -->
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="newsletter">
+                                    <label class="form-check-label" for="newsletter">
+                                        Subscribe to our newsletter
+                                    </label>
+                                </div>
+
+                                <!-- Buttons -->
+                                <div class="d-flex gap-3">
+                                    <button type="reset" class="btn btn-info text-white fw-bold">Reset</button>
+                                    <button type="submit" class="btn btn-dark fw-bold">Submit</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center py-3 bg-dark text-light">© 2025 Travel Around The World</div>
+
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (no jQuery needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

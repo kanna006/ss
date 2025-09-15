@@ -1,0 +1,7 @@
+.hero {
+    background-image: url(./assets/img/sunset.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15rem 0rem;
+}
